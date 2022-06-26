@@ -1,0 +1,89 @@
+body{
+    padding: 50px;
+}
+#searchInput{
+  width:50%;
+  height:50px;
+  border-radius: 10px;
+  margin-left: 120px;
+  
+}
+
+button{
+margin-left: 20px;
+width:100px;
+border: 0ch;
+border-radius: 10px;
+background-color: rgb(13, 162, 212);
+color:white;
+cursor: pointer;
+}
+
+#thumbs{
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.img-wrapper{
+    display: table;
+    height: 140px;
+    width: 200px;
+    table-layout: fixed;
+    float: left;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 12px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    margin:auto;
+    margin-top: 10px;
+   
+}
+.outer{
+    height: 100%;
+}
+.inner{
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid #e6e6e6;
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+.inner img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 128px;
+}
+
+.loader-wrapper{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 20000;
+    background: rgba(255, 255, 255, 1);
+}
+.loader-wrapper.shown{
+    display: block;
+}
+
+.lds-circle {
+  display: inline-block;
+  transform: translateZ(1px);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+h1{
+    text-align: center;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+h1:hover{
+    color:red;
+}

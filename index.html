@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 id="heading">GIPHY SEARCH</h1>
+    <form id="searchForm">
+        <div class="input-group mb-3">
+            <input id="searchInput" type="text"  placeholder="Search Giphy Here">
+                   
+            <div class="input-group-append">
+                <button  id="searchButton">Search</button>
+            </div>
+        </div>
+    </form>
+
+    <div id="thumbs">
+
+    </div>
+
+</div>
+<div class="loader-wrapper">
+    <div class="lds-circle"><div></div></div>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="key.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
